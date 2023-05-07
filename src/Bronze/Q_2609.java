@@ -5,7 +5,7 @@ import java.util.StringTokenizer;
 
 public class Q_2609 {
     // 유클리드 호제법
-    // a > b 일 때 a % b = r 일 때 r이 0이 되는 순간 a와 b의 최대공약수 구할 수 있음
+    // a > b 일 때 a % b = result 일 때 r이 0이 되는 순간 a와 b의 최대공약수 구할 수 있음
     public static int euclidean(int a, int b) {
         if(b == 0) {
             return a;
